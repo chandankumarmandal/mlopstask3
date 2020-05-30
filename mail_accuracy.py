@@ -6,7 +6,7 @@ from email import encoders
 mail_content = "Your program Accuracy:"
 #The mail addresses and password
 sender_address = 'ckwork7760@gmail.com'
-sender_pass = input('chand7760 ')
+sender_pass = input('enter your password ')
 receiver_address = 'chandankumarmandal15@gmail.com'
 #Setup the MIME
 message = MIMEMultipart()
