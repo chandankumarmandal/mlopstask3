@@ -5,13 +5,13 @@ from email.mime.base import MIMEBase
 from email import encoders
 mail_content = "Your program Accuracy:"
 #The mail addresses and password
-sender_address = 'harshitaagarwal330@gmail.com'
-sender_pass = input('enter password ')
-receiver_address = 'dwiyash23@hotmail.com'
+sender_address = 'ckwork7760@gmail.com'
+sender_pass = input('chand7760 ')
+receiver_address = 'chandankumarmandal15@gmail.com'
 #Setup the MIME
 message = MIMEMultipart()
-message['From'] = 'harshitaagarwal330@gmail.com'
-message['To'] = 'dwiyash23@hotmail.com'
+message['From'] = 'ckwork7760@gmail.com'
+message['To'] = 'chandankumarmandal15@gmail.com'
 message['Subject'] = 'Accuracy of model'
 #The subject line
 #The body and the attachments for the mail
